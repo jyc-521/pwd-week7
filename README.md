@@ -29,8 +29,8 @@ React 클라이언트 → Express (/api/restaurants) → Supabase JS SDK → Dat
 | --- | --- |
 | 서버 GitHub | https://github.com/jyc-521/pwd-week7 |
 | 클라이언트 GitHub | https://github.com/jyc-521/pwd-week7-client |
-| Render API | 배포 후 입력 |
-| Vercel 서비스 | 배포 후 입력 |
+| Render API | https://pwd-week6-jyc-521.onrender.com |
+| Vercel 서비스 | https://pwd-week5-brown.vercel.app |
 
 ## 사용 기술
 
@@ -134,3 +134,5 @@ npm run dev
 `POST /api/restaurants`로 새 맛집을 등록한 뒤 서버를 완전히 종료하고 다시 실행했을 때, 등록한 맛집(id 4)이 그대로 조회되는 것을 확인했습니다.
 
 기존 React 클라이언트를 로컬 서버와 연결했을 때 데이터베이스의 맛집 4건이 화면에 표시되는 것을 확인했습니다.
+
+Render에 배포한 뒤 공개 주소에서도 같은 4건과 id 4 맛집이 조회되었고, Vercel에 배포된 클라이언트에서도 Render API를 통해 같은 데이터가 표시되는 것을 확인했습니다.
